@@ -41,6 +41,6 @@ require (
 
 cd $TARGET_DIRECTORY
 
-go mod edit -require github.com/GoogleCloudPlatform/functions-framework-go@$FRAMEWORK_VERSION
+go mod edit -require github.com/enadhq/functions-framework-go@$FRAMEWORK_VERSION
 
 cat go.mod

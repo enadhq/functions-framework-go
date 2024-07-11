@@ -20,8 +20,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/GoogleCloudPlatform/functions-framework-go/funcframework"
-	"github.com/GoogleCloudPlatform/functions-framework-go/testdata/conformance/nondeclarative"
+	"github.com/enadhq/functions-framework-go/funcframework"
+	"github.com/enadhq/functions-framework-go/testdata/conformance/nondeclarative"
 )
 
 func main() {

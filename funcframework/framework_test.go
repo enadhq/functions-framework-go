@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/GoogleCloudPlatform/functions-framework-go/functions"
-	"github.com/GoogleCloudPlatform/functions-framework-go/internal/registry"
 	cloudevents "github.com/cloudevents/sdk-go/v2"
 	"github.com/cloudevents/sdk-go/v2/event"
+	"github.com/enadhq/functions-framework-go/functions"
+	"github.com/enadhq/functions-framework-go/internal/registry"
 	"github.com/google/go-cmp/cmp"
 )
 

@@ -1,8 +1,8 @@
 # Functions Framework for Go
 
-[![GoDoc](https://godoc.org/github.com/GoogleCloudPlatform/functions-framework-go?status.svg)](http://godoc.org/github.com/GoogleCloudPlatform/functions-framework-go) [![Go version](https://img.shields.io/badge/go-v1.11+-blue)](https://golang.org/dl/#stable)
+[![GoDoc](https://godoc.org/github.com/enadhq/functions-framework-go?status.svg)](http://godoc.org/github.com/enadhq/functions-framework-go) [![Go version](https://img.shields.io/badge/go-v1.11+-blue)](https://golang.org/dl/#stable)
 
-[![Go unit CI][ff_go_unit_img]][ff_go_unit_link] [![Go lint CI][ff_go_lint_img]][ff_go_lint_link] [![Go conformace CI][ff_go_conformance_img]][ff_go_conformance_link]  ![Security Scorecard](https://api.securityscorecards.dev/projects/github.com/GoogleCloudPlatform/functions-framework-go/badge)
+[![Go unit CI][ff_go_unit_img]][ff_go_unit_link] [![Go lint CI][ff_go_lint_img]][ff_go_lint_link] [![Go conformace CI][ff_go_conformance_img]][ff_go_conformance_link]  ![Security Scorecard](https://api.securityscorecards.dev/projects/github.com/enadhq/functions-framework-go/badge)
 
 An open source FaaS (Function as a Service) framework for writing portable
 Go functions, brought to you by the Google Cloud Functions team.
@@ -61,7 +61,7 @@ handling logic.
 		"fmt"
 		"net/http"
 
-		"github.com/GoogleCloudPlatform/functions-framework-go/functions"
+		"github.com/enadhq/functions-framework-go/functions"
 	)
 
 	func init() {
@@ -94,7 +94,7 @@ handling logic.
 
 		// Blank-import the function package so the init() runs
 		_ "example.com/hello"
-		"github.com/GoogleCloudPlatform/functions-framework-go/funcframework"
+		"github.com/enadhq/functions-framework-go/funcframework"
 	)
 
 	func main() {
@@ -190,7 +190,7 @@ package function
 import (
 	"net/http"
 
-	"github.com/GoogleCloudPlatform/functions-framework-go/functions"
+	"github.com/enadhq/functions-framework-go/functions"
 )
 
 func init() {
@@ -213,7 +213,7 @@ package function
 
 import (
 	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/GoogleCloudPlatform/functions-framework-go/functions"
+	"github.com/enadhq/functions-framework-go/functions"
 )
 
 func init() {
@@ -255,9 +255,9 @@ m := metadata.FromContext(ctx)
 
 These functions can be registered in `main.go` for local testing with the handler via `funcframework.RegisterEventFunctionContext`.
 
-[ff_go_unit_img]: https://github.com/GoogleCloudPlatform/functions-framework-go/workflows/Go%20Unit%20CI/badge.svg
-[ff_go_unit_link]: https://github.com/GoogleCloudPlatform/functions-framework-go/actions?query=workflow%3A"Go+Unit+CI"
-[ff_go_lint_img]: https://github.com/GoogleCloudPlatform/functions-framework-go/workflows/Go%20Lint%20CI/badge.svg
-[ff_go_lint_link]: https://github.com/GoogleCloudPlatform/functions-framework-go/actions?query=workflow%3A"Go+Lint+CI"
-[ff_go_conformance_img]: https://github.com/GoogleCloudPlatform/functions-framework-go/workflows/Go%20Conformance%20CI/badge.svg
-[ff_go_conformance_link]: https://github.com/GoogleCloudPlatform/functions-framework-go/actions?query=workflow%3A"Go+Conformance+CI"
+[ff_go_unit_img]: https://github.com/enadhq/functions-framework-go/workflows/Go%20Unit%20CI/badge.svg
+[ff_go_unit_link]: https://github.com/enadhq/functions-framework-go/actions?query=workflow%3A"Go+Unit+CI"
+[ff_go_lint_img]: https://github.com/enadhq/functions-framework-go/workflows/Go%20Lint%20CI/badge.svg
+[ff_go_lint_link]: https://github.com/enadhq/functions-framework-go/actions?query=workflow%3A"Go+Lint+CI"
+[ff_go_conformance_img]: https://github.com/enadhq/functions-framework-go/workflows/Go%20Conformance%20CI/badge.svg
+[ff_go_conformance_link]: https://github.com/enadhq/functions-framework-go/actions?query=workflow%3A"Go+Conformance+CI"

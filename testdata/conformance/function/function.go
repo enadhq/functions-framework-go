@@ -24,9 +24,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/GoogleCloudPlatform/functions-framework-go/funcframework"
-	"github.com/GoogleCloudPlatform/functions-framework-go/functions"
 	cloudevents "github.com/cloudevents/sdk-go/v2"
+	"github.com/enadhq/functions-framework-go/funcframework"
+	"github.com/enadhq/functions-framework-go/functions"
 )
 
 const (

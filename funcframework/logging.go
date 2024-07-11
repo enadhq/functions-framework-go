@@ -178,7 +178,7 @@ func (w *structuredLogWriter) Close() error {
 //
 //	import (
 //	  "log"
-//	  "github.com/GoogleCloudPlatform/functions-framework-go/funcframework"
+//	  "github.com/enadhq/functions-framework-go/funcframework"
 //	)
 //	...
 //	func helloWorld(w http.ResponseWriter, r *http.Request) {
